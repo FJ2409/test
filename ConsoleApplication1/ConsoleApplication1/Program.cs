@@ -10,8 +10,12 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hola Mundo");
-            Console.Read();
+           
+            Persona p = new Persona();
+            p.setNombre("juan");
+            p.setEdad(18);
+            p.presentar();
+            Console.ReadLine();
         }
     }
 }
